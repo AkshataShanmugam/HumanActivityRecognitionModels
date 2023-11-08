@@ -69,7 +69,7 @@ df = pd.DataFrame(data_list)
 df.to_csv("data.csv", index=False)
 ```
 
-The resulting `data.csv` file is used for the multi-class classification models in this repository.
+The resulting `data.csv` file is used for the multi-class classification models in this repository. (It is added here in the zipped format, unzip before use)
 
 ## Prerequisites:
 Before running the script in Google Colab, you need to ensure that you have a Google Colab environment set up. Additionally, you should have a dataset named `data.csv` uploaded to your Colab environment. You can upload the dataset directly from your local machine or from cloud storage services.
@@ -97,6 +97,6 @@ The script provides output for each machine learning model, including accuracy, 
 ### Note:
 - LightGBM can be sensitive to the choice of parameters. You can experiment with different hyperparameters as needed.
 - For the Random Forest model, hyperparameter tuning is demonstrated using GridSearchCV. The best parameters and the corresponding accuracy are displayed.
-- Make sure to have the `data.csv` dataset uploaded to your Colab environment.
+- Make sure to have the `data.csv` dataset uploaded to your Colab environment. It is added in the repository in the zipped format, unzip before use.
 
 Thank you for using this multi-class classification demonstration script in Google Colab. If you have any questions or need assistance, please feel free to reach out.
